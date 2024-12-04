@@ -44,7 +44,7 @@ nav {
     align-items: center;
     position: relative;
     width: 100%;
-    z-index: 1000; /* Ensure nav is above other content */
+    z-index: 1000; 
 }
 nav ul {
     list-style: none;
@@ -89,7 +89,7 @@ nav ul li a {
     backface-visibility: hidden;
 }
 .front {
-    background: rgba(0, 0, 0, .1); /* opacity*/
+    background: rgba(0, 0, 0, .1); 
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4.5px);
@@ -100,7 +100,7 @@ nav ul li a {
 }
 .back {
     align-items: Center;
-    background: rgba(225, 225, 225, .5); /* opacity*/
+    background: rgba(225, 225, 225, .5); 
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(4.5px);
@@ -119,7 +119,7 @@ nav ul li a {
     margin: 0 auto;
     padding: 20px; 
     text-align: center;
-    background: rgba(0, 0, 0, .5); /* opacity*/
+    background: rgba(0, 0, 0, .5); 
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4.5px);
@@ -218,8 +218,8 @@ animation:blink 2s infinite;
 
 .hero {
     display: flex;
-    justify-content: right; /* Center the content horizontally*/
-    align-items: center; /* Center the content vertically */
+    justify-content: right; 
+    align-items: center; 
     padding: 50px 50px;
     background: url('hero.png') no-repeat center center;
     opacity: 1;
@@ -269,18 +269,18 @@ animation:blink 2s infinite;
 
 .btn:hover {
     cursor: pointer;
-    background: #fff; /* Darker shade on hover */
+    background: #fff;
     border: 1px solid black;
-    box-shadow: 0 4px 10px black; /* Add shadow on hover */
+    box-shadow: 0 4px 10px black;
     color: black;
 }
 
 .container, .white-container ul {
-    list-style-position: inside; /* Position bullet points inside the container */
+    list-style-position: inside; 
 }
 
 .container,.white-container ul li {
-    text-align: center; /* Align text to the left */
+    text-align: center; 
 }
 
 
